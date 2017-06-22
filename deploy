@@ -2,6 +2,7 @@
 ssh root@45.55.175.74 <<EOF        
  dir
  echo 'hola'
+ cd /
  cd usr/app/test-node-deploy  
  echo 'estoy adentro?'
  dir
