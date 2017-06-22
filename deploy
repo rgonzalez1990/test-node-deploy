@@ -1,6 +1,10 @@
 -#!/bin/sh      
 ssh root@45.55.175.74 <<EOF        
+ dir
+ echo 'hola'
  cd ~/test-node-deploy  
+ echo 'estoy adentro?'
+ dir
  git pull       
  npm install --production       
  pm2 restart all
