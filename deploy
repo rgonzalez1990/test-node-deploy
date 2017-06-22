@@ -1,6 +1,6 @@
 -#!/bin/sh      
 ssh root@45.55.175.74 <<EOF        
- cd /test-node-deploy  
+ cd ~/test-node-deploy  
  git pull       
  npm install --production       
  pm2 restart all
